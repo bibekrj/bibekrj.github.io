@@ -255,7 +255,7 @@ body {
 }
 
 .brj-about-heading {
-	margin-bottom: 60px;
+	margin-bottom: 30px;
 
 	p {
 		width: 100%;
@@ -453,8 +453,8 @@ body {
 // Experience.
 
 .brj-experience {
-	padding-top: 120px;
-	padding-bottom: 120px;
+	padding-top: 60px;
+	padding-bottom: 60px;
 
 	.brj-row {
 		flex-direction: column;
@@ -610,43 +610,6 @@ body {
 		padding-bottom: 150px;
 	}
 
-	.brj-header-col--2 {
-		display: flex;
-		align-items: center;
-		
-		ul {
-			display: flex;
-			align-items: center;
-			gap: 30px;
-			list-style: none;
-		}
-	
-		a {
-			font-size: 16px;
-			font-weight: 700;
-			text-decoration: none;
-		}
-	
-		.brj-nav {
-			display: flex;
-			gap: 30px;
-		}
-	
-		.brj-btn button {
-			display: flex;
-			gap: 4px;
-		}
-	}
-
-	.brj-mobile-menu {
-		display: none;
-
-		.open {
-			display: none;
-		}
-
-	}
-
 	.brj-content,
 	.brj-about-heading {
 		p {
@@ -714,6 +677,11 @@ body {
 		}
 	}
 
+	.brj-experience {
+		padding-top: 120px;
+		padding-bottom: 120px;
+	}	
+
 	.brj-footer {
 		padding-top: 100px;
 		padding-bottom: 100px;
@@ -722,5 +690,45 @@ body {
 			flex-direction: row;
 		}
 
+	}
+}
+
+@include breakpoint("lrg") {
+
+	.brj-mobile-menu {
+		display: none;
+	
+		.open {
+			display: none;
+		}
+	
+	}
+
+	.brj-header-col--2 {
+		display: flex;
+		align-items: center;
+		
+		ul {
+			display: flex;
+			align-items: center;
+			gap: 30px;
+			list-style: none;
+		}
+	
+		a {
+			font-size: 16px;
+			font-weight: 700;
+			text-decoration: none;
+		}
+	
+		.brj-nav {
+			display: flex;
+			gap: 30px;
+		}
+	
+		.brj-btn button {
+			display: flex;
+			gap: 4px;
+		}
 	}
 }
