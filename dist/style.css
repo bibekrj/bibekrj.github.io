@@ -301,6 +301,21 @@ body {
 .brj-skills .brj-skill-docker {
   background-color: #2496ED; /* Docker Blue */
 }
+.brj-skills .brj-skill-container {
+  background-color: #2496ED; /* Docker Blue */
+}
+.brj-skills .brj-skill-singularity {
+  background-color: #2980b9;
+}
+.brj-skills .brj-skill-aws {
+  background-color: #dc5032;
+}
+.brj-skills .brj-skill-arduino {
+  background-color: #008184;
+}
+.brj-skills .brj-skill-noodle {
+  background-color: #bac706;
+}
 
 .brj-projects {
   padding-top: 60px;
