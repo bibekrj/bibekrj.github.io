@@ -1,2 +1,2 @@
-<a href='https://www.linkedin.com/in/bibekrajjoshi'>Linkedin </a>
-<a href='https://www.github.com/bibekrj'>Github </a>
+<a href='https://www.linkedin.com/in/bibekrajjoshi'>Go to LinkedIn </a>
+<a href='https://www.github.com/bibekrj'> Go to Github </a>
